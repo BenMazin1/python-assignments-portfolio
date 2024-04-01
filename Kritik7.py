@@ -1,6 +1,7 @@
 import numpy as np
 from scipy.special import gamma
 
+
 # function to calculate t-distribution
 def t_distribution_pdf(x, nu):
     coeff = gamma((nu + 1) / 2) / (np.sqrt(nu * np.pi) * gamma(nu / 2))
